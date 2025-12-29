@@ -1,0 +1,1 @@
+ALTER TABLE "Animals" ADD COLUMN "CustomerTrackerId" integer;

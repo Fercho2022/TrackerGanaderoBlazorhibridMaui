@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe\" -h localhost -p 5432 -U postgres -d CattleTrackingDB -c \"SELECT COUNT(*) FROM \"\"Farms\"\";\" -t)",
+      "Bash(\"C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe\" -h localhost -p 5432 -U postgres -d CattleTrackingDB -c \"SELECT \"\"Id\"\", \"\"Name\"\" FROM \"\"Farms\"\" ORDER BY \"\"Id\"\";\")",
+      "Bash(\"C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe\" -h localhost -p 5432 -U postgres -d CattleTrackingDB -f \"C:\\Cursos\\Net\\TrackerGanaderoMixto\\create_default_farm.sql\")",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
