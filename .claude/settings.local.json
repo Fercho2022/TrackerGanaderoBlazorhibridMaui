@@ -4,7 +4,11 @@
       "Bash(\"C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe\" -h localhost -p 5432 -U postgres -d CattleTrackingDB -c \"SELECT COUNT(*) FROM \"\"Farms\"\";\" -t)",
       "Bash(\"C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe\" -h localhost -p 5432 -U postgres -d CattleTrackingDB -c \"SELECT \"\"Id\"\", \"\"Name\"\" FROM \"\"Farms\"\" ORDER BY \"\"Id\"\";\")",
       "Bash(\"C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe\" -h localhost -p 5432 -U postgres -d CattleTrackingDB -f \"C:\\Cursos\\Net\\TrackerGanaderoMixto\\create_default_farm.sql\")",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAsignación de tracker a una granja y un animal\n\nImplementado sistema completo para asignar trackers GPS a granjas específicas y posteriormente a animales individuales:\n\n🚀 Funcionalidades principales:\n- Sistema de autenticación JWT completo con tokens reales (eliminado el token temporal)\n- Modales modernos para eliminación de trackers con gradientes y animaciones\n- Notificaciones toast para retroalimentación del usuario\n- Sincronización de estado entre pantallas de eliminación y descubrimiento\n- Validaciones completas para creación de animales con manejo de errores\n\n🔧 Correcciones técnicas:\n- Fix de autenticación: AuthHeaderHandler configurado correctamente para todos los servicios\n- Solución de problema de timezone: DateTime UTC enforcement para compatibilidad con PostgreSQL\n- Mejoras en validaciones y manejo de foreign keys\n- Logging detallado para diagnóstico de errores\n\n💡 Flujo de trabajo:\n1. Descubrir trackers GPS disponibles\n2. Asignar trackers a granja específica  \n3. Crear animales en la granja\n4. Asignar trackers a animales individuales\n\n🎉 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(git remote add:*)",
+      "Bash(git pull:*)"
     ],
     "deny": [],
     "ask": []
